@@ -1,0 +1,6 @@
+;$Id$
+name = Admino Account
+description = Fetches account data for specific relationships.
+package = Admino Account Status Development
+core = 7.x
+files[] = admino_pro.module
