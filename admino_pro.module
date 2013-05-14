@@ -1,0 +1,18 @@
+<?php
+// $Id$
+/**
+* @file
+* A module exemplifying Drupal coding practices and APIs.
+*
+* This module provides a block that lists all of the
+* installed modules. It illustrates coding standards,
+* practices, and API use for Drupal 7.
+*/
+/**
+* Implements hook_help().
+*/
+function admino_pro_help($path, $arg) {
+if ($path == 'admin/help#admino') {
+return t('This module fetches data for the logged in user.');
+}
+}
